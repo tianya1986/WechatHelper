@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorHeaderBackground">#303030</color> <!-- 头部背景颜色 -->
+
+    <drawable name="colorWhite">#ffffff</drawable>
+    <drawable name="colorWhitePress">#88ffffff</drawable>
+</resources>

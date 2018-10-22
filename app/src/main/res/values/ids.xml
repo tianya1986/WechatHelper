@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="wechat_button_back" type="id"></item>
+    <item name="wechat_header" type="id"></item>
+    <item name="wechat_header_right" type="id"></item>
+    <item name="wechat_content_root" type="id"></item>
+</resources>

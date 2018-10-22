@@ -1,0 +1,16 @@
+<resources>
+    <string name="we_chat_pp_name">微信工具</string>
+
+    <string name="wechat_title">微信工具</string>
+    <string name="wechat_accessibility_description">打开此功能，微信自动运行功能才能运行。</string>
+    <string name="wechat_accessibility_setting">开启微信自动辅助功能</string>
+    <string name="wechat_next">下一步</string>
+
+    <string name="wechat_configure">功能配置</string>
+    <string name="wechat_accessibility_no_open">微信自动功能未开启</string>
+
+    <string name="wechat_auto_add_friend_need_external_permissions">请授权SD卡权限才能使用自动添加好友功能</string>
+    <string name="wechat_auto_add_friend">自动添加好友</string>
+
+    <string name="wechat_open_wechat">打开微信</string>
+</resources>

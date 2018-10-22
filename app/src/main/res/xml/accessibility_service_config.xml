@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+                       android:accessibilityEventTypes="typeNotificationStateChanged|typeWindowStateChanged|typeWindowContentChanged|typeViewScrolled"
+                       android:accessibilityFeedbackType="feedbackGeneric"
+                       android:accessibilityFlags="flagDefault"
+                       android:canRetrieveWindowContent="true"
+                       android:description="@string/wechat_accessibility_description"
+                       android:notificationTimeout="100"
+                       android:packageNames="com.tencent.mm"
+    />
+
+    <!--
+    配置服务参数
+    配置用来接受指定类型的事件，监听指定package，检索窗口内容，获取事件类型的时间等等。
+    accessibilityEventTypes：表示该服务对界面中的哪些变化感兴趣，即哪些事件通知，比如窗口打开，滑动，焦点变化，长按等。具体的值可以在AccessibilityEvent类中查到，如typeAllMask表示接受所有的事件通知
+    accessibilityFeedbackType：表示反馈方式，比如是语音播放，还是震动
+    canRetrieveWindowContent：表示该服务能否访问活动窗口中的内容。也就是如果你希望在服务中获取窗体内容，则需要设置其值为true
+    description：对该无障碍功能的描述，具体体现在下图
+    notificationTimeout：接受事件的时间间隔，通常将其设置为100即可
+    packageNames：表示对该服务是用来监听哪个包的产生的事件，这里以微信的包名为例
+     -->
